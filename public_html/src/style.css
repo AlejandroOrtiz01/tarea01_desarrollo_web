@@ -1,0 +1,141 @@
+
+
+body {
+    
+    clear: both;
+    margin: 50px auto;
+    width: 80%;
+    text-align: left;
+    background-color:#EEE;    
+}
+
+
+.Main {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height:  40px;    
+}
+
+.content {
+    
+    width: 70%;
+    float: left;
+}
+
+.pageHeader nav {
+    background: #2BA6CB; /* establecer fondo azul claro*/
+    height: 49px; /*establecer la altura 49ox de lo contrario la barra de navegacion se vera como una linea*/
+    line-height: 30px; /*hace que los enlaces aparezcan en medio*/
+    margin: 0 auto 30px auto; /**/
+    text-align: center;/**/
+    border-radius: 5px;
+    -moz-border-radius:  5px;/**/
+    -webkit-border-radius: 5px;/**/
+   
+}
+
+.pageHeader nav ul  {
+    margin: 0 auto;
+    
+}
+
+.pageHeader nav ul li {
+    
+    float: left;
+    display:  inline; /*hace que los enlaces se muestren horizontalmente*/
+    
+}
+
+.pageHeader nav a:link, .pageHeader nav a:visited {
+    color: #eee; /*establece los enlaces en blanco*/
+    display: inline-flex; /*hace que los enlaces se muestren flexibles*/
+    height: 30px;
+    padding: 5px 23px;/*establece espacios entre enlaces*/
+    text-decoration: none;
+   
+}
+ 
+.pageHeader nav a:hover, .pageHeader nav a:active,
+
+.pageHeader nav .active a:link, .pageHeader nav .active a:visited {
+    background:  #FF0000; /*cambia de color de fondo*/
+    color: #fff
+
+}
+
+.Main {
+    overflow: hidden;
+    line-height: 30px;
+    
+}
+
+.Top {
+    margin-bottom: 3%;
+    
+}
+
+.content{
+    width: 80%;
+    float: left;
+    
+}
+
+.top-sidebar {
+ width: 20%;
+ float: left;
+ margin-left: 2%;
+ padding: 2% 3%;
+ margin-bottom: 2%;
+ 
+}
+
+
+.navigation {
+    display: flex;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.875em 0;
+    
+    
+}
+
+
+.bottom-sidebar {
+    width: 20%;
+    float:left;
+    margin-left: 2%;
+    padding: 2% 3%;
+}
+
+.featured {
+    background: none repeat scroll 0 0 #2BA6CB;
+    border-color: #FFC0CB;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1.25em;
+    padding: 1.25em;
+    
+}
+
+.pageFooter {
+    width: 100%;
+    height: 40px;
+    line-height: 5px;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #FFC0CB;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #ff0000;
+    
+}
+
+.pageFooter p{
+    width: 90%;
+    margin: 2% auto;
+    
+}
