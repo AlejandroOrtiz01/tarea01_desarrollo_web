@@ -59,7 +59,7 @@ body {
 .pageHeader nav a:hover, .pageHeader nav a:active,
 
 .pageHeader nav .active a:link, .pageHeader nav .active a:visited {
-    background:  #FF0000; /*cambia de color de fondo*/
+    background:  #00ff77; /*cambia de color de fondo*/
     color: #fff
 
 }
