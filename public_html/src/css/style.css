@@ -11,7 +11,7 @@ body {
 
 
 .Main {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 5px;
     overflow: hidden;
     line-height:  40px;    
@@ -44,11 +44,11 @@ body {
     
     float: left;
     display:  inline; /*hace que los enlaces se muestren horizontalmente*/
-    
+    display: block;
 }
 
 .pageHeader nav a:link, .pageHeader nav a:visited {
-    color: #eee; /*establece los enlaces en blanco*/
+    color: #1290a6; /*establece los enlaces en blanco*/
     display: inline-flex; /*hace que los enlaces se muestren flexibles*/
     height: 30px;
     padding: 5px 23px;/*establece espacios entre enlaces*/
